@@ -1,0 +1,148 @@
+'''
+operadores arigmaticos
+
+'''
+
+# suma 
+x=2+6
+# print(x)
+
+
+# resta
+y=8-2
+# print(y)
+
+# multiplicacion
+
+# print(2*25)
+
+# division
+'''para python la division siempre retorna en float'''
+divide=25/5
+# print(divede)
+# print(type(divide))
+
+# division piso (floor
+
+# print(10/3)
+# print(10//3)
+
+# print(4/3)
+# print(4//3)
+
+# print(14.5/3)
+# print(14.5//3)
+
+'''la division piso me devuelve el numero entero mas proximo hacia abajo'''
+# módulo
+
+# print(8//-3)
+# print(8/-3)
+
+w=20/3
+y=20%3
+'''modulo es el residuo de la division'''
+# print(w)
+# print(y)
+
+# print(type(y))
+
+
+# potencia
+
+# print(2**3)
+
+'''
+operadores de comparacion
+Este tipo de operadores los usamos cuando deseamos comparar expresiones o
+variables. Python evalúa si se cumple la comparación y nos devuelve (retorna) un
+valor True o False
+'''
+
+# es igaul a
+# print("X"=="x")
+
+# print(3==3.0)
+# print(3==3.00000000)
+# print(3==3.0000000000000000000000000000001)
+
+# es diferente a
+# print(4!=3)
+# print(False != True)
+
+# es mayor que
+#>
+
+# es menor que
+#<
+
+# es mayor o igual que , es menor o igual que
+
+#>= mayor o igual que
+#<= menor o igual que
+# incremento
+
+
+# decrecimiento
+
+
+# asigna multiplicaion
+
+
+
+# asigna division
+
+
+# asigna modulo
+
+
+
+# asigna exponente
+
+
+'''
+OPERADORES DE ASIGNACION
+'''
+
+# x=20
+# x=20 + 1
+# print(x)
+
+#incremento
+# print(x++2)
+
+#decrecimiento
+
+# y=5
+# y=y-1
+# y-=1
+# print(y)
+
+'''
+operadores logicos
+and: exige que todas las condiciones sean true para responder true', de lo contrario responde false
+'''
+# x=4 #defino el valor de la variable x
+# x=4 #pregunto si x es igual a 4
+# y=4
+# print(x==4 and y==4)
+'''
+or:este operador solo necita que alguna de las condiciones sean true para responder true
+'''
+x=4
+y=4
+# print(x==100 or y==4)
+
+'''
+not: En el caso del operador not se valida si una variable es False o True. Si la variable
+existe en memoria tenemos un valor por defecto True.
+
+'''
+print(not x)
+enunciado=True
+print(not enunciado)
+
+
+usuario_logueado=True
+boton_logout=True
+print(not  usuario_logueado)
