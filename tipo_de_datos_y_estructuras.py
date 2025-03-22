@@ -126,7 +126,7 @@ lista1.append("20")
 
 #remove
 lista1.remove(7)
-print=(lista 1)
+# print=(lista 1)
 
 
 #acceder a los elementos de la lista
