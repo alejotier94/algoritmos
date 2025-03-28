@@ -85,7 +85,7 @@ la letra eliminada y que al llamar nuevamente la lista el elemento no se encuent
  # sort= modifica la lista de la posision mayor a la posision menor
  #sorted= ordena nuevamente la lista de menor a mayor
 
-valores=["1", "3", "5", "2", "10", "9", "8", "7", "4", "6"]
+# valores=["1", "3", "5", "2", "10", "9", "8", "7", "4", "6"]
 # valores.sort(reverse=True)
 # print(valores)
 
@@ -121,3 +121,6 @@ Cree una tupla llamada ventas que considere en la primera posición el nombre de
 # ventas.index(5)
 # ventas.index(8)
 # print(ventas)
+
+
+

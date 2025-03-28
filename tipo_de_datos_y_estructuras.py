@@ -132,10 +132,44 @@ lista1.remove(7)
 #acceder a los elementos de la lista
 
 lista2=[["jhon", "alejandro", "leguin"],["isabel", "juan", "daniel"]]
-print(lista2[0][1])
-      
+# print(lista2[0][1])
 
 
+'''4. DICCIONARIOS
+<CLASS 'DICT'> 
+{'clave','valor', 'clave2' , 'valor2', , , } 
 
+'''
+estudiantes={
+    'diana': 25,
+    'ana': 20,
+    'juan': 29
+}
+print(type(estudiantes))
 
-      
+print((estudiantes.keys))
+
+print((estudiantes.values))
+
+#diccionarios que involucren otras estructuras
+
+instituto={
+    'robotica':["diana", "juan" ,"pedro"],
+    'programacion':["andres", "luis", "miguel"]
+}
+
+print(instituto.values)
+
+colegio:{'quimica':{"luisa":15, "jose":14},
+         'fisica':{"lina":14, "mario":17}}
+} 
+
+print(colegio.values())
+
+distancia={
+    ('palmira', 'cali'):22
+    ('palmira', 'pradera'):15
+}
+
+estudiantes['luisa']=45
+print(estudiantes) 
